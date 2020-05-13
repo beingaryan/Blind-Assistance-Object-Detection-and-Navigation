@@ -1,6 +1,13 @@
 Third Party App
-Third Party App provides ease and freedom in the field of app development. It brings efficiency and also helps in speedy delivery of the output. Third Party App allows you to divide your work in parts and helps you to focus on the core part of app or any system. This strategy helps in the development of good and quality software. We can pass on the Features of the Third Party App to the system. 
-1) At first, we are capturing real time images from the rear camera of the mobile handset of blind people and a connection is established between mobile phone and system in laptop and then those images are send from mobile phone to laptop. 
-2)This connection is done by a Third party app which is installed in the mobile phone of the person. All the real time images which get captured by the rear camera of mobile phone are first transferred to the Third party app in the mobile phone and then those images are sent in laptop where they are processed for some further conclusions.
-3) The system in laptop will test it using its APIs and SSD ALGORITHM and it detects the confidence accuracy of the image which it is testing. We reached 98% accuracy for certain classes like books, cups, remote. 
-4) After testing the images we are generating an output on the laptop based system and its prediction is being translated into voice with voice modules and sent to the blind person with the help of wireless audio support tools.
+Third Party App provides ease and freedom in the field of app development. It brings efficiency and also helps in speedy delivery of the
+output. Third Party App allows you to divide your work in parts and helps you to focus on the core part of app or any system. This strategy
+helps in the development of good and quality software. We can pass on the Features of the Third Party App to the system. 
+1) At first, we are capturing real time images from the rear camera of the mobile handset of blind people and a connection is established
+between mobile phone and system in laptop and then those images are send from mobile phone to laptop. 
+2)This connection is done by a Third party app which is installed in the mobile phone of the person. All the real time images which get 
+captured by the rear camera of mobile phone are first transferred to the Third party app in the mobile phone and then those images are 
+sent in laptop where they are processed for some further conclusions.
+3) The system in laptop will test it using its APIs and SSD ALGORITHM and it detects the confidence accuracy of the image which it is 
+testing. We reached 98% accuracy for certain classes like books, cups, remote. 
+4) After testing the images we are generating an output on the laptop based system and its prediction is being translated into voice with
+voice modules and sent to the blind person with the help of wireless audio support tools.
