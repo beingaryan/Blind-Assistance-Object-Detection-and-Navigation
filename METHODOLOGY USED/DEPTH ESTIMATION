@@ -1,0 +1,17 @@
+DEPTH ESTIMATION
+Depth estimation or extraction refers to the set of techniques and algorithms which aims to obtain a representation of the spatial structure of a scene. In other words, it is used to calculate distance between two real time objects. Our prototype is used to assist the blind people which aims to issue warning to the blind people about the hurdles coming on their way. In order to do this, we need to find that at how much distance the obstacle and person are located in any real time situation. After the object is detected rectangular box is generated around that object. If that object occupies most of the frame then with respect to some constraints the approximate distance of the object from the particular person is calculated.Following code is used to recognize objects and to return the information for the locations and confidence:
+(boxes, scores, classes, num_detections) = sess.run( [boxes, scores, classes, num_detections], feed_dict={image_tensor: image_np_expanded})
+So, here, for further analysis we can iterate through the boxes. Boxes are an array, inside of an array. So, for iteration we need to define the following conditions.
+for i,b in enumerate(boxes[0]):
+boxes[0][i][0] – y axis upper start coordinates
+boxes[0][i][1] – x axis left start coordinates
+boxes[0][i][2] – y axis down start coordinates
+boxes[0][i][3] – x axis right start coordinates
+Index of box in boxes array is represented by i. Analysis of the score of the box is done by index. It is also used to access class.Now, the width of the detected object is measured. This is done by asking the width of object in terms of pixels.
+apx_distance = round(((1 - (boxes[0][i][3] - boxes[0][i][1]))**4),1)
+We get centre of two by subtracting same axis start coordinates and dividing them by two. In this way centre of our detected rectangle is calculated. And at the last, a dot is drawn in the centre. The default parameter for drawing boxes is a score of 0.5. if scores[0][i] >= 0.5 (i.e. equal or more than 50 percent) then we assume that the object is detected. if scores[0][i] >= 0.5: 
+mid_x = (boxes[0][i][1]+boxes[0][i][3])/2 
+mid_y = (boxes[0][i][0] +boxes[0][i][2])/2 
+apx_distance = round (((1 - (boxes[0][i][3] - boxes[0][i][1]))**4),1)
+where mid_x is centre of X axis and mid_y is centre of y axis If the distance apx_distance < 0.5 and if mid_x > 0.3 and mid_x < 0.7 then it can be concluded that the object is too close from the particular person.With this code, relative distance of the object from a particular person can be calculated. After the detection of object the code is used to determine the relative distance of the object from the person. If the object is too close then signal or a warning is issued to the person through voice generation module.
+
