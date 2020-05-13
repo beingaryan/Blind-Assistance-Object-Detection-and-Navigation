@@ -1,3 +1,6 @@
 The MobileNet model is based on depthwise separable convolutions which are a form of factorized convolutions. These factorize a standard
 convolution into a depthwise convolution and a 1 × 1 convolution called a pointwise convolution. For MobileNets, the depthwise convolution
-applies a single filter to each input channel. The pointwise convolution then applies a 1 × 1 convolution to combine the outputs of the depthwise convolution. A standard convolution both filters and combines inputs into a new set of outputs in one step. The depthwise separable convolution splits this into two layers – a separate layer for filtering and a separate layer for combining. This factorization has the effect of drastically reducing computation and model size.
+applies a single filter to each input channel. The pointwise convolution then applies a 1 × 1 convolution to combine the outputs of the 
+depthwise convolution. A standard convolution both filters and combines inputs into a new set of outputs in one step. The depthwise 
+separable convolution splits this into two layers – a separate layer for filtering and a separate layer for combining. 
+This factorization has the effect of drastically reducing computation and model size.
