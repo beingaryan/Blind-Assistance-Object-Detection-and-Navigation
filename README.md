@@ -3,4 +3,4 @@ This is a vision enhancer based module specifically for the BLIND VICTIMS. The s
 # GETTING STARTED
 INSTALL THE REQUIREMENTS FILE BY:
 GO INSIDE THIS CLONED REPOSITORY AND FIRE
-##pip install - r requirements.txt
+## pip install - r requirements.txt
