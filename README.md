@@ -5,3 +5,8 @@ INSTALL THE REQUIREMENTS FILE BY:
 GO INSIDE THIS CLONED REPOSITORY AND FIRE
 ## pip install - r requirements.txt
 
+# Link for Blog
+https://medium.com/beingryaan/real-time-object-detection-along-with-distance-and-voice-alerts-for-blinds-a-blind-assistance-1708b97c3ecc
+
+# Link for youtube Tutorial
+https://www.youtube.com/watch?v=3BXIuU2AcGg&feature=emb_title
