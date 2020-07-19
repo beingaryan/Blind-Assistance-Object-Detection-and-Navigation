@@ -12,7 +12,7 @@ This is a vision enhancer based module specifically for the BLIND VICTIMS. The s
 * Git Clone the repository to your local machine. 
 * pip install - r requirements.txt
 * Follow my Youtube Tutorial
-* Run [MaiFile](#webcam_blind_voice.py)
+* Run [MainFile](https://github.com/beingaryan/VISION-I/blob/master/webcam_blind_voice.py)
 
 ## TODO
 * Make it dynamic over Cloud systems.
