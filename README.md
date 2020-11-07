@@ -22,3 +22,4 @@ This is a vision enhancer based module specifically for the BLIND VICTIMS. The s
 ## Tutorials
 * [Medium](https://medium.com/beingryaan/real-time-object-detection-along-with-distance-and-voice-alerts-for-blinds-a-blind-assistance-1708b97c3ecc)
 * [Youtube](https://www.youtube.com/watch?v=3BXIuU2AcGg&feature=emb_title)
+
